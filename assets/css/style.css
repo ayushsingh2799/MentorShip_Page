@@ -256,16 +256,15 @@ nav ul li a
   /* ------------------------------------------------ */
   .mentor
   {
-     height: 100vh;
+     height: 60%;
      width: 100%;
   }
   .mentor_img
   {
-
-     border-radius: 50%;
+    border-radius: 50%;
     position: absolute;
-    top: 20px;
-    left: 45px;
+    top: 20%;
+    left: 6%;
   }
   .mentor_hover_img
   {
@@ -325,24 +324,25 @@ nav ul li a
      transform: translateY(-10px);
      text-shadow: 0px 1px 2px #37517e;
   }
-  @media (max-width: 575px)
-  {
-     .mentor_img
-     {
-       left:10px;
-       top: 6px;
-     }
-  }
-  
+
   /* --------------------------------------------- */
   /*                   FAQ                         */
   /* --------------------------------------------- */
  .FAQ
  {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding:20px 0px 40px 0px; 
  }
+ @media (max-width: 575px)
+ {
+    .mentor_img
+    {
+      left:10px;
+      top: 6px;
+    }
+ }
+ 
  /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -451,14 +451,6 @@ nav ul li a
   padding-bottom: 30px;
   color: #fff;
 }
-/* #footer .credits {
-  float: right;
-  font-size: 13px;
-}
-
-#footer .credits a {
-  transition: 0.3s;
-} */
 
 @media (max-width: 768px) {
   #footer .footer-bottom {
