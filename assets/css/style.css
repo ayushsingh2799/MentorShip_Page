@@ -209,7 +209,7 @@ nav ul li a
   /* --------------------------------------------------- */
   .progress_bar
   {
-     height: 80vh;
+     height: 80%;
      width: 100%;
      background-color: black;
      /* padding:20px 90px 20px 90px; */
@@ -217,11 +217,11 @@ nav ul li a
   }
   .section-heading
   {
-     padding: 40px 90px 20px 90px;
+     padding: 40px 90px 0px 90px;
   }
   .sub-heading
   {
-     padding: 5px 90px 5px 90px;
+     padding: 5px 90px 0px 90px;
   }
   .bg_image_bar
   {
