@@ -197,6 +197,10 @@ nav ul li a
      background-color: white;
      border-radius: 5px;
   } 
+  .acc_title
+  {
+     margin-left: 5px;
+  }
   .acc_title:hover{
       color:rgb(80, 198, 245);
   }
