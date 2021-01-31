@@ -28,26 +28,10 @@ body {
   margin: auto;
 }
 
-/* section {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 100vh;
-  gap: 20px;
-} */
 
 
-/* section:nth-child(even) {
-  background: #f8f8f8;
-} */
 
 @media (max-width: 720px) {
-  /* section {
-    flex-direction: column;
-    justify-content: center;
-  } */
 }
 
 @media (max-width: 600px) {
