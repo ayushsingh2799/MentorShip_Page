@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+     <!-- Vendor CSS Files -->
+  <!-- <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet"> -->
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Web-Development</title>
+  </head>
+  <body>
+     <nav class="navbar navbar-b navbar-trans navbar-expand-lg fixed-top navbar-dark ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="techtable-image" src="images/TT logo.png" width="230" height="75" alt="">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link text-dark" href="index.html"><strong>Home</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#Course-section"><strong>Courses</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#Resources-section"><strong>Resources</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#faq-section"><strong>FAQ</strong></a>
+                </li>
+             </ul>
+          </div>
+        </div>
+      </nav> 
+    <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1><strong>Web design and development</strong></h1>
+          <h2>Learn to create your own web application</h2>
+          <div class="d-lg-flex">
+            <a href="resource.html" class="btn-get-register scrollto">Register here</a>
+            <a href="#" class="btn-get-register scrollto">Join live session</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/imags/demo.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+    <!-- Resource Section Starts here -->
+    <section class="resource" id="resource">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2 class="text-center">Resources</h2>
+                <p class="text-center">What do we think you should be learning./Bases on your recent purchases.</p>
+            </div>
+            <div class="card text-center">
+                <div class="card-header">
+                   <ul class="nav nav-tabs card-header-tabs">
+                     <li class="nav-item">
+                        <a class="nav-link active" id="video-tab" data-toggle="tab" href="#video" role="tab" aria-controls="video" aria-selected="true">Video Lecture</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="books-tab" data-toggle="tab" href="#books" role="tab" aria-controls="books" aria-selected="false">Download Books</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="notes-tab" data-toggle="tab" href="#notes" role="tab" aria-controls="notes" aria-selected="false">Download Notes</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" id="assig-tab" data-toggle="tab" href="#assig" role="tab" aria-controls="assig" aria-selected="false">Assignment</a>
+                     </li>
+                   </ul>
+                </div>
+                <div class="card-body">
+                   <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane fade show active" id="video" role="tabpanel" aria-labelledby="video-tab">
+                        <h5 class="card-title">Video Lectures</h5>
+                        <div class="card my-5" style="width: 90%;  margin: auto;">
+                            <div class="row no-gutters" style="margin:0;">
+                                <div class="col-12 col-sm-5 col-md-5 col-lg-5">
+                                    <div  class="my-2 mx-2 border rounded" id="player"></div>
+                                </div>
+                                <div class="col-12 col-sm-7 col-md-7 col-lg-7 ">
+                                    <div class="card-body">
+                                        <h5 class="text-left ml-1">Prerequisite</h5>
+                                        <h6 class="text-left ml-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                                            voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="books" role="tabpanel" aria-labelledby="books-tab">
+                        <p>hjjjjjjjjjjjjjjjjjjjjjjjjj</p>
+                       </div>
+                       <div class="tab-pane fade" id="notes" role="tabpanel" aria-labelledby="notes-tab">...
+
+                       </div>
+                       <div class="tab-pane fade" id="assig" role="tabpanel" aria-labelledby="assig-tab">...
+
+                       </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+   
+   
+   <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Tech Table</h3>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Android Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Machine Learning</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom clearfix">
+      <div class="copyright text-center">
+        &copy; Copyright <strong><span>TechTable</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer> 
+     <!-- Vendor JS Files -->
+   
+
+  <!-- <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> -->
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <!-- <script src="assets/vendor/venobox/venobox.min.js"></script> -->
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/script.js"></script>
+  
+  
+  
+  </body>
+</html>

@@ -18,18 +18,18 @@
   <title>Web-Development</title>
   </head>
   <body>
-    <nav class="navbar navbar-b navbar-trans navbar-expand-lg fixed-top navbar-dark ">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark ">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img class="techtable-image" src="images/TT logo.png" width="230" height="75" alt="">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="images/TT logo.png"alt="">
+          </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link text-dark" href="index.html"><strong>Home</strong></a>
+            <ul class="navbar-nav me-auto mb-2 mt-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link text-dark active" href="index.html"><strong>Home</strong></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="#Course-section"><strong>Courses</strong></a>
@@ -44,23 +44,25 @@
           </div>
         </div>
       </nav>
-     <!-- Home section starts here -->
-     <section class="Home-section d-flex align-items-center" id="Home">
-        <div class="row">
-          <div class="Home-section-heading col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">        <!--6-units per-column on a large screen -->
-              <h1><strong>Web design and development</strong></h1><br>
-              <h3>Learn to create your own web application</h3>
-              <div class="d-lg-flex">
-                <a href="#"><button class="register"><strong>Register here</strong></button></a>
-                <a href="#"><button class="register"><strong>Join live session</strong></button></a>
-              </div>
+      <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1><strong>Web design and development</strong></h1>
+          <h2>Learn to create your own web application</h2>
+          <div class="d-lg-flex">
+            <a href="resource.html" class="btn-get-register scrollto">Register here</a>
+            <a href="#" class="btn-get-register scrollto">Join live session</a>
           </div>
-          <div class="col-lg-6 order-1 order-lg-2 Home-img" data-aos="zoom-in" data-aos-delay="200">
-            <img src="assets/imags/demo.png" class="img-fluid animated" alt="">
-          </div>    
         </div>
-    </section>
-    <!-- Home section ends here -->
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/imags/demo.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
     <!-- Why This Course starts here-->
     <section id="why-us" class="why-us">
         <div class="container" data-aos="fade-up">
@@ -313,7 +315,7 @@
         <p class="text-center">Who are we and where do we come from? Get to know us better and up close.</p>
       </div>
       <div class="card my-5 mentor_card" style="width: 90%;  margin: auto;">
-        <div class="row no-gutters" style="margin:0">
+        <div class="row no-gutters" style="margin:0 ;">
             <div class="col-sm-4 bg_mentor" style="background-color: rgba(186, 252, 252, 0.705);">
                 <img src="assets/imags/mentor.png" alt="" class="mentor_hover_img">
                 <img src="assets/imags/mentor.png" alt="..." class="img-thumbnail  mentor_img">
@@ -350,7 +352,7 @@
             <div class="accordion-item ">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                  <h6 class="acc_title">1. Question 1</h6> 
+                  <h6 class="acc_title">Q: Question 1</h6> 
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -362,7 +364,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                   <h6 class="acc_title">2. Question 2</h6>
+                   <h6 class="acc_title">Q: Question 2</h6>
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -374,7 +376,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <h6 class="acc_title"><i class="icofont-question-square"></i> Question 3</h6>
+                  <h6 class="acc_title">Q: Question 3</h6>
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -386,7 +388,7 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  <h6 class="acc_title"><i class="icofont-question-circle"></i> Question 4</h6>
+                  <h6 class="acc_title">Q: Question 4</h6>
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
