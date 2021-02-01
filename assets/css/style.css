@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    font-family:'Open Sans', sans-serif;
     /* overflow-x: hidden; */
 }
 html{
@@ -112,7 +113,7 @@ nav ul li a
   padding: 10px 28px 11px 28px;
   letter-spacing: 1px;
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 60px;
   transition: 0.5s;
   margin: 10px 0 0 10px;
   background-color: rgb(211, 235, 243);
@@ -217,17 +218,10 @@ nav ul li a
      height: 80%;
      width: 100%;
      background-color: black;
-     /* padding:20px 90px 20px 90px; */
+     padding:20px 10px 40px 10px;
      
   }
-  .section-heading
-  {
-     padding: 40px 90px 0px 90px;
-  }
-  .sub-heading
-  {
-     padding: 5px 90px 0px 90px;
-  }
+ 
   .progress_bar h4
       {
          /* font-size: 15px; */
@@ -270,12 +264,20 @@ nav ul li a
     }
     
   }
+  /* ------------------------------------------------- */
+  /*              Program Section                      */
+  .program
+  {
+     height: 100%;
+     width: 100%;
+     padding: 20px 0 40px 0;
+  }
   .prog_card
   {
     font-size: 15px;
     width: 95%;
-    height: 65vh;
-    box-shadow: 0px 0px 5px 1px rgb(104, 103, 103);
+    margin: auto;
+    box-shadow: 0px 0px 25px 1px rgb(104, 103, 103);
     transition: box-shadow 0.2s ease-in-out;
   }
   .prog_card:hover
@@ -287,6 +289,7 @@ nav ul li a
      .prog_card
      {
         width: 80%;
+
      }
   }
   /* ------------------------------------------------ */
@@ -296,6 +299,7 @@ nav ul li a
   {
      height: 60%;
      width: 100%;
+     padding: 20px 0 40px 20px;
   }
   .mentor_img
   {
@@ -354,13 +358,14 @@ nav ul li a
   }
   .mentor_card
   {
-     box-shadow: 0 2px 10px grey;
+     box-shadow: 0 5px 20px grey;
      transition: 0.5s;
   }
   .mentor_card:hover
   {
      transform: translateY(-10px);
-     text-shadow: 0px 1px 2px #37517e;
+     /* text-shadow: 0px 1px 2px #37517e; */
+     font-weight: bold;
   }
 
   /* --------------------------------------------- */
