@@ -158,7 +158,8 @@
 
 
 
-
+// =============================================
+// To embed youtube video 
   var tag = document.createElement('script');
 
   tag.src = "https://www.youtube.com/iframe_api";
@@ -198,3 +199,12 @@
   function stopVideo() {
     player.stopVideo();
   }
+
+
+
+  $('#go').on('click',function(){
+    $('#two').show('slow');
+});
+$('#hide').on('click',function(){
+  $('#two').hide('slow');
+});

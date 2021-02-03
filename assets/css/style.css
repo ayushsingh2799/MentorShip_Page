@@ -8,12 +8,6 @@ html{
   width: 100%;
   overflow-x: hidden;
 }
-/* @media only screen and (max-width:480px) {
-  html{
-    width: 100%;
-    overflow-x: hidden;
-  }
-} */
 .logo
 {
    height: 30%;
@@ -45,7 +39,7 @@ html{
   display: block;
   width: 40px;
   height: 3px;
-  background: #47b2e4;
+  background: #4c43ae;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -55,9 +49,7 @@ html{
      padding-right: 0.5em;
      font-size:1.2rem;
 }
-.navbar ul li:hover{
-    font-size:1.4rem;
-}
+
 .navbar ul
 {
   margin-left: auto;
@@ -74,9 +66,21 @@ nav ul li a
    text-decoration: none;
    color:white;
    padding:5px;
-   border-top-right-radius: 10px;
-   border-bottom-left-radius: 10px;
-   transition: 0.3s linear;
+   transition: width 0.5s;
+}
+nav ul li a::after
+{
+  color: white;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width .3s;
+}
+nav ul li a:hover::after
+{
+  width: 50%;
 }
 /*--------------------------------------------------------------
 # Hero Section
@@ -203,7 +207,7 @@ nav ul li a
   {
      width: 100%;
      padding:20px 0px 40px 0px; 
-     background-color: rgb(226, 237, 241);
+     background-color: #596daf28;
   }
   .accordion-item
   {
@@ -291,6 +295,17 @@ nav ul li a
   {
     box-shadow: 0 10px 15px rgba(0,0,0,0.3);
   }
+  .btn-info
+  {
+      background:#4c53ae;
+      color: white;
+      font-weight: bold;
+  }
+  .btn-info:hover{
+    background: #4c73ae;
+    color: white;
+    font-size: 17px;
+  }
   @media (max-width: 575px)
   {
      .prog_card
@@ -299,6 +314,8 @@ nav ul li a
 
      }
   }
+
+
   /* ------------------------------------------------ */
   /*               Mentor Page */
   /* ------------------------------------------------ */
@@ -310,7 +327,7 @@ nav ul li a
   }
   .bg_mentor
   {
-    background-color: rgba(186, 252, 252, 0.705);
+    background-color:#808bafe1;
     display: flex;
     justify-content: center;
     align-items: center;
