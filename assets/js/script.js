@@ -100,7 +100,7 @@
     $(document).ready(function(){
       $(window).scroll(function() {
         if ($(document).scrollTop() > 100) { 
-          $(".navbar").css("background-color", "white"); 
+          $(".navbar").css("background-color", "#4c63ae"); 
         } else {
           $(".navbar").css("background-color", "transparent"); 
         }
