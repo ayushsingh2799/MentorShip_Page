@@ -556,19 +556,20 @@ nav ul li a:hover::after
    margin-right: 2px;
 }
 /* ------------------------------------------------ */
-/* ----------------- RESOURCE PAGE      ----------- */
+/* ----------------- REGISTER PAGE   and JOIN LIVE SESSION PAGE    ----------- */
 /* ------------------------------------------------ */
 
-.signup
+.signup , .join_live
 {
   background-color: #2453c1be;
-  background-image: linear-gradient(45deg , #0a40bebe , rgb(23, 136, 180));
+  background-image: linear-gradient(45deg ,#4c63ae , #4c93ae);
   /* background: #f8f8f8; */
   padding: 50px 0; 
   height: 100%;
   width: 100%;
 }
-.signup .container {
+
+.signup .container , .join_live .container {
   width: 900px;
   background: #fff;
   margin: 0 auto;
@@ -607,11 +608,11 @@ figure {
 
 .form-submit {
   display: inline-block;
-  background: #6dabe4;
+  background: #4c53ae;
   color: #fff;
   border-bottom: none;
   width: auto;
-  padding: 15px 39px;
+  padding: 10px 30px;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -812,6 +813,6 @@ label.valid {
 
   .form-title {
     text-align: center; } }
-/*# sourceMappingURL=style.css.map */
+
 
 

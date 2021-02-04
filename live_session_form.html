@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join live session</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style> 
+        img { 
+              animation: zoominoutsinglefeatured ease-in-out 1s; 
+              animation-iteration-count: 1; 
+              animation-fill-mode: forwards; 
+            } 
+        @keyframes zoominoutsinglefeatured {
+            0% {
+                transform: scale(0);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style> 
+    <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+<body>
+    <section class="join_live">
+        <div class="container">
+            <div class="signup-content">
+            <div class="row">
+                 <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="padding-left: 20px;">
+                    <div class="join_live-form">
+                        <h2 class="section-title" style="margin-bottom: 30px; margin-left: 10px;">Login</h2>
+                        <form method="POST" class="join_live-form" id="join_live-form">
+                            <div class="form-group">
+                                <label for="name"></label>
+                                <input type="text" name="name" id="name" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Confirm your password"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                          
+                            <a href="https://www.youtube.com/channel/UCleAvwL0XCnvedDfxgUbuLw" class="form-submit btn-info btn" style="text-decoration: none;">Join</a>    
+                        </form>
+                    </div>
+                 </div>
+                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-center mt-5">
+                        <img src="assets/imags/live_session.png" alt=" image" style="width: 100%; height: 70%; ">
+                        <a href="index.html" class="signup-image-link mt-5 pt-5">Go to home page</a>
+                 </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
