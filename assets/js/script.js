@@ -174,3 +174,4 @@
 $('#hide').on('click',function(){
   $('#two').hide('slow');
 });
+
